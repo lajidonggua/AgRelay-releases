@@ -9,7 +9,7 @@
 在 Mac 的系统 Terminal 中运行：
 
 ```sh
-curl -fsSL https://raw.githubusercontent.com/lajidonggua/AgRelay-releases/main/install.sh | sh
+curl -fsSL https://raw.githubusercontent.com/lajidonggua/AgRelay-releases/v0.2.8-mvp-dev/install.sh | sh
 ```
 
 需要 Apple Silicon Mac 和已有 Python3.9+。无需 GitHub 登录、Go、Swift 或 sudo；不自动安装依赖。安装程序校验固定版本安装器的内置 SHA-256、归档和包内文件。校验确认内容一致性，不是发布者签名；当前二进制未签名或公证，不应绕过系统安全提示。
