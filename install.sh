@@ -2,14 +2,14 @@
 # Standalone fixed-release entry: safe from a pipe or saved file in any cwd.
 set -eu
 umask 077
-version=0.2.7-mvp-dev
+version=0.2.8-mvp-dev
 repository=lajidonggua/AgRelay-releases
 installer_sha256=00c28aecff1774010239dff0c7a6e0c60113068e072d53f11fc4eed96700b010
 
 case "${1:-}" in
   -h|--help)
     printf '%s\n' 'AgRelay quick installer: Apple Silicon Mac, existing Python3.9+.' \
-      'Installs verified 0.2.7 binaries in ~/.agrelay-app and ~/.local/bin.' \
+      'Installs verified 0.2.8 binaries in ~/.agrelay-app and ~/.local/bin.' \
       'Optional installer arguments: --prefix /absolute/new/path --bin-dir /absolute/user/bin.' \
       'Existing files are preserved. Setup, SSH and model calls are not automatic.'
     exit 0 ;;
